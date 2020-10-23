@@ -1,0 +1,837 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+    
+        <!-- Favicon -->
+        <link
+          rel="shortcut icon"
+          href="./assets/favicon/favicon.ico"
+          type="image/x-icon"
+        />
+    
+        <!-- Map CSS -->
+        <link
+          rel="stylesheet"
+          href="https://api.mapbox.com/mapbox-gl-js/v0.53.0/mapbox-gl.css"
+        />
+    
+        <!-- Libs CSS -->
+        <link rel="stylesheet" href="./css/libs.css" />
+    
+        <!-- Theme CSS -->
+        <link rel="stylesheet" href="./css/style.css" />
+    
+        <!-- Title -->
+        <title>Not Decided yet?</title>
+    
+        <!-- Global site tag (gtag.js) - Google Analytics
+         <script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=UA-156446909-2"
+        ></script>
+    
+        
+        -->
+    
+        <script src="js/window.js"></script>
+      </head>
+      <body>
+        <!-- MODALS -->
+        <!-- Example -->
+        
+        <!-- NAVBAR -->
+        <nav class="navbar navbar-expand-lg navbar-light">
+          <div class="container">
+            <!-- Brand -->
+            <a class="navbar-brand" href="./index.html">
+              <img
+                src="./assets/img/brand.svg"
+                class="navbar-brand-img"
+                alt="brand logo"
+              />
+            </a>
+    
+            <!-- Toggler -->
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-toggle="collapse"
+              data-target="#navbarCollapse"
+              aria-controls="navbarCollapse"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+    
+            <!-- Collapse -->
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+              <!-- Toggler -->
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-toggle="collapse"
+                data-target="#navbarCollapse"
+                aria-controls="navbarCollapse"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <i class="fe fe-x"></i>
+              </button>
+    
+              <!-- Navigation -->
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    id="navbarLandings"
+                    data-toggle="dropdown"
+                    href="#"
+                    aria-haspopup="true"
+                    aria-expanded="false"
+                  >
+                    Products
+                  </a>
+                  <div
+                    class="dropdown-menu dropdown-menu-xl p-0"
+                    aria-labelledby="navbarLandings"
+                  >
+                    <div class="row gx-0">
+                      <div class="col-12 col-lg-6">
+                        <div
+                          class="dropdown-img-left"
+                          style="background-image: url(./assets/images/code.jpeg)"
+                        >
+                          <!-- Heading -->
+                          <h4 class="font-weight-bold text-white mb-0">
+                            Want to see an overview?
+                          </h4>
+    
+                          <!-- Text -->
+                          <p class="font-size-sm text-white">
+                            See all the pages at once.
+                          </p>
+    
+                          <!-- Button -->
+                          <a
+                            href="#!"
+                            class="btn btn-sm btn-white shadow-dark fonFt-size-sm"
+                          >
+                            View all pages
+                          </a>
+                        </div>
+                      </div>
+                      <div class="col-12 col-lg-6">
+                        <div class="dropdown-body">
+                          <div class="row gx-0">
+                            <div class="col-6">
+                              <!-- Heading -->
+                              <h6 class="dropdown-header">Services</h6>
+    
+                              <!-- List -->
+                              <a class="dropdown-item" href="#!"> Consultation </a>
+                              <a class="dropdown-item" href="#!"> Regulation </a>
+                              <a class="dropdown-item mb-5" href="#!"> Custom </a>
+    
+                              <!-- Heading -->
+                              <h6 class="dropdown-header">Apps</h6>
+    
+                              <!-- List -->
+                              <a class="dropdown-item" href="#!"> Desktop </a>
+                              <a class="dropdown-item" href="#!"> Mobile </a>
+                            </div>
+                            <div class="col-6">
+                              <!-- Heading -->
+                              <h6 class="dropdown-header">Design</h6>
+    
+                              <!-- List -->
+                              <a class="dropdown-item" href="#!"> Icon </a>
+                              <a class="dropdown-item" href="#!"> Illustration </a>
+                              <a class="dropdown-item" href="#!"> Animation </a>
+                              <a class="dropdown-item" href="#!"> Stock Photos </a>
+                            </div>
+                          </div>
+                          <!-- / .row -->
+                        </div>
+                      </div>
+                    </div>
+                    <!-- / .row -->
+                  </div>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    id="navbarPages"
+                    data-toggle="dropdown"
+                    href="#"
+                    aria-haspopup="true"
+                    aria-expanded="false"
+                  >
+                    About
+                  </a>
+                  <div
+                    class="dropdown-menu dropdown-menu-lg"
+                    aria-labelledby="navbarPages"
+                  >
+                    <div class="row gx-0">
+                      <div class="col-6">
+                        <div class="row gx-0">
+                          <div class="col-12 col-lg-6">
+                            <!-- Heading -->
+                            <h6 class="dropdown-header">Career</h6>
+    
+                            <!-- List -->
+                            <a class="dropdown-item" href="career.html"> Openings </a>
+                          </div>
+                          <div class="col-12 col-lg-6">
+                            <!-- Heading -->
+                            <h6 class="dropdown-header">Company</h6>
+    
+                            <!-- List -->
+                            <a class="dropdown-item" href="./about.html"> About </a>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-6">
+                        <div class="row gx-0">
+                          <div class="col-12 col-lg-6">
+                            <!-- Heading -->
+                            <h6 class="dropdown-header">Clients</h6>
+    
+                            <!-- List -->
+                            <a class="dropdown-item" href="#!"> Airbnb</a>
+                            <a class="dropdown-item" href="#!"> Netflix </a>
+                            <a class="dropdown-item" href="#!"> Coinbase </a>
+                            <a class="dropdown-item mb-5 mb-lg-0" href="#!">
+                              Stripe
+                            </a>
+                          </div>
+                          <div class="col-12 col-lg-6">
+                            <!-- Heading -->
+                            <h6 class="dropdown-header">Portfolio</h6>
+    
+                            <!-- List -->
+                            <a class="dropdown-item" href="#!"> IOS </a>
+                            <a class="dropdown-item" href="#!"> Android</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- / .row -->
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    id="navbarAccount"
+                    data-toggle="dropdown"
+                    href="blog.html"
+                    aria-haspopup="true"
+                    aria-expanded="false"
+                  >
+                    Blog
+                  </a>
+                  <div
+                    class="dropdown-menu dropdown-menu-lg"
+                    aria-labelledby="navbarPages"
+                  >
+                    <div class="row gx-0">
+                      <div class="col-6">
+                        <div class="row gx-0">
+                          <div class="col-12 col-lg-6">
+                            <!-- Heading -->
+                            <h6 class="dropdown-header"href="./blog.html" >Blog</h6>
+    
+                            <!-- List -->
+                            <a class="dropdown-item" href="./blog.html">Articles</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    id="navbarDocumentation"
+                    data-toggle="dropdown"
+                    href="#"
+                    aria-haspopup="true"
+                    aria-expanded="false"
+                  >
+                    Contact
+                  </a>
+                  <div
+                    class="dropdown-menu dropdown-menu-md"
+                    aria-labelledby="navbarDocumentation"
+                  >
+                    <div class="list-group list-group-flush">
+                      <a class="list-group-item" href="#!">
+                        <!-- Icon -->
+                        <div class="icon icon-sm text-primary">
+                          <img src="./assets/svg/house.svg">
+                        </div>
+    
+                        <!-- Content -->
+                        <div class="ml-4">
+                          <!-- Heading -->
+                          <h6
+                            class="font-weight-bold text-uppercase text-primary mb-0"
+                          >
+                            Office
+                          </h6>
+    
+                          <!-- Text -->
+                          <p class="font-size-sm text-gray-700 mb-0">
+                            Block S2.2, S2.2-B4-05, 21 Nanyang Link
+                          </p>
+                        </div>
+                      </a>
+                      <a class="list-group-item" href="#!">
+                        <!-- Icon -->
+                        <div class="icon icon-sm text-primary">
+                          <img src="assets/svg/email.svg">
+                        </div>
+    
+                        <!-- Content -->
+                        <div class="ml-4">
+                          <!-- Heading -->
+                          <h6
+                            class="font-weight-bold text-uppercase text-primary mb-0"
+                          >
+                            Email
+                          </h6>
+    
+                          <!-- Text -->
+                          <p class="font-size-sm text-gray-700 mb-0">
+                           support@detapp.com
+                          </p>
+                        </div>
+                      </a>
+                      <a class="list-group-item" href="#!">
+                        <!-- Icon -->
+                        <div class="icon icon-sm text-primary">
+                          <img src="assets/svg/call.svg">
+                        </div>
+    
+                        <!-- Content -->
+                        <div class="ml-4">
+                          <!-- Heading -->
+                          <h6
+                            class="font-weight-bold text-uppercase text-primary mb-0"
+                          >
+                            Phone
+                          </h6>
+    
+                          <!-- Text -->
+                          <p class="font-size-sm text-gray-700 mb-0">
+                            1234-5678
+                          </p>
+                        </div>
+    
+                        <!-- Badge -->
+                        <!-- <span class="badge rounded-pill bg-primary-soft ml-auto">
+                          2.0.0-alpha
+                        </span> -->
+                      </a>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+    
+              <!--Button-->
+              <a
+                class="navbar-btn btn btn-sm btn-primary lift ml-auto"
+                href=""
+                target="_blank"
+              >
+                Apply now
+              </a>
+            </div>
+          </div>
+        </nav>
+
+    <!-- CONTENT -->
+    <section class="pt-8 pt-md-11">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-12 col-md">
+
+            <!-- Link -->
+            <a href="#!" class="font-weight-bold font-size-sm text-decoration-none mb-3">
+              <i class="fe fe-arrow-left mr-3"></i> All listings
+            </a>
+
+            <!-- Heading -->
+            <h1 class="display-4 mb-2">
+              UX Design Lead
+            </h1>
+
+            <!-- Text -->
+            <p class="font-size-lg text-gray-700 mb-5 mb-md-0">
+              San Francisco, CA · Full time
+            </p>
+
+          </div>
+          <div class="col-auto">
+
+            <!-- Buttons -->
+            <a href="#!" class="btn btn-primary-soft mr-1">
+              Refer a friend
+            </a>
+            <a href="#!" class="btn btn-primary">
+              Apply
+            </a>
+
+          </div>
+        </div> <!-- / .row -->
+        <div class="row">
+          <div class="col-12">
+
+            <!-- Divider -->
+            <hr class="my-6 my-md-8 border-gray-300">
+
+          </div>
+        </div> <!-- / .row -->
+        <div class="row">
+          <div class="col-12 col-md-8">
+
+            <!-- Heading -->
+            <h3>
+              Who we are
+            </h3>
+
+            <!-- Text -->
+            <p class="text-gray-800 mb-6 mb-md-8">
+              We believe lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus feugiat elit vitae enim lacinia semper. Cras nulla lectus, porttitor vitae urna iaculis, malesuada tincidunt lectus. Proin nec tellus sit amet massa auctor imperdiet id vitae diam. Aenean gravida est nec diam suscipit iaculis. Praesent urna velit, auctor nec turpis et, vehicula lobortis sem. Vivamus convallis mi sagittis eleifend laoreet. Praesent vitae venenatis enim. Nulla tincidunt felis et lectus rhoncus laoreet.
+            </p>
+
+            <!-- Heading -->
+            <h3>
+              What we’re looking for
+            </h3>
+
+            <!-- Text -->
+            <p class="text-gray-800 mb-5">
+              Aenean gravida est nec diam suscipit iaculis. Praesent urna velit, auctor nec turpis et, vehicula lobortis sem. Vivamus convallis mi sagittis eleifend laoreet. Praesent vitae venenatis enim. Nulla tincidunt felis et lectus rhoncus laoreet.
+            </p>
+
+            <!-- List -->
+            <div class="d-flex">
+
+              <!-- Badge -->
+              <div class="badge badge-rounded-circle bg-success-soft mt-1 mr-4">
+                <i class="fe fe-check"></i>
+              </div>
+
+              <!-- Text -->
+              <p class="text-gray-800">
+                Work through complex design problems to create beautiful and thoughtful interactions for our marketing web platform
+              </p>
+
+            </div>
+            <div class="d-flex">
+
+              <!-- Badge -->
+              <div class="badge badge-rounded-circle bg-success-soft mt-1 mr-4">
+                <i class="fe fe-check"></i>
+              </div>
+
+              <!-- Text -->
+              <p class="text-gray-800">
+                Demonstrate an expertise in typography, composition, layout, design thinking, and content strategy in the design solutions you create
+              </p>
+
+            </div>
+            <div class="d-flex">
+
+              <!-- Badge -->
+              <div class="badge badge-rounded-circle bg-success-soft mt-1 mr-4">
+                <i class="fe fe-check"></i>
+              </div>
+
+              <!-- Text -->
+              <p class="text-gray-800">
+                Consider UX from a user journey level across several brand touchpoints, as well as within specific interactions
+              </p>
+
+            </div>
+            <div class="d-flex">
+
+              <!-- Badge -->
+              <div class="badge badge-rounded-circle bg-success-soft mt-1 mr-4">
+                <i class="fe fe-check"></i>
+              </div>
+
+              <!-- Text -->
+              <p class="text-gray-800">
+                Design at a systems level, where components can be re-used and built to scale, optimized across different screen sizes and devices
+              </p>
+
+            </div>
+            <div class="d-flex">
+
+              <!-- Badge -->
+              <div class="badge badge-rounded-circle bg-success-soft mt-1 mr-4">
+                <i class="fe fe-check"></i>
+              </div>
+
+              <!-- Text -->
+              <p class="text-gray-800 mb-6 mb-md-8">
+                Iterate quickly and communicate ideas across various levels of fidelity, with the ability to receive feedback constructively as well as provide feedback to other’s work
+              </p>
+
+            </div>
+
+            <!-- Heading -->
+            <h3 class="mb-5">
+              Applicant requirements
+            </h3>
+
+            <!-- List -->
+            <div class="d-flex">
+
+              <!-- Badge -->
+              <div class="badge badge-rounded-circle bg-success-soft mt-1 mr-4">
+                <i class="fe fe-check"></i>
+              </div>
+
+              <!-- Text -->
+              <p class="text-gray-800">
+                Work through complex design problems to create beautiful and thoughtful interactions for our marketing web platform
+              </p>
+
+            </div>
+            <div class="d-flex">
+
+              <!-- Badge -->
+              <div class="badge badge-rounded-circle bg-success-soft mt-1 mr-4">
+                <i class="fe fe-check"></i>
+              </div>
+
+              <!-- Text -->
+              <p class="text-gray-800 mb-6 mb-md-0">
+                Demonstrate an expertise in typography, composition, layout, design thinking, and content strategy in the design solutions you create
+              </p>
+
+            </div>
+
+          </div>
+          <div class="col-12 col-md-4">
+
+            <!-- Card -->
+            <div class="card shadow-light-lg mb-5">
+              <div class="card-body">
+
+                <!-- Heading -->
+                <h4>
+                  Need help?
+                </h4>
+
+                <!-- Text -->
+                <p class="font-size-sm text-gray-800 mb-5">
+                  Not sure exactly what we’re looking for or just want clarification? We’d be happy to chat with you and clear things up for you. Anytime!
+                </p>
+
+                <!-- Heading -->
+                <h6 class="font-weight-bold text-uppercase text-gray-700 mb-2">
+                  Call anytime
+                </h6>
+
+                <!-- Text -->
+                <p class="font-size-sm mb-5">
+                  <a href="tel:555-123-4567" class="text-reset">(555) 123-4567</a>
+                </p>
+
+                <!-- Heading -->
+                <h6 class="font-weight-bold text-uppercase text-gray-700 mb-2">
+                  Email us
+                </h6>
+
+                <!-- Text -->
+                <p class="font-size-sm mb-0">
+                  <a href="mailto:support@goodthemes.co" class="text-reset">support@goodthemes.co</a>
+                </p>
+
+              </div>
+            </div>
+
+            <!-- Card -->
+            <div class="card shadow-light-lg">
+              <div class="card-body">
+
+                <!-- Heading -->
+                <h4>
+                  Don't see a job for you?
+                </h4>
+
+                <!-- Text -->
+                <p class="font-size-sm text-gray-800">
+                  Do you feel like you belong working with Good Themes, but we just don’t have your dream job posted? No problem, just reach out.
+                </p>
+
+                <!-- Heading -->
+                <a href="#!" class="font-weight-bold font-size-sm text-decoration-none">
+                  Let us know <i class="fe fe-arrow-right ml-3"></i>
+                </a>
+
+              </div>
+            </div>
+
+          </div>
+        </div> <!-- / .row -->
+      </div> <!-- / .container -->
+    </section>
+
+    <!-- FORM -->
+    <section class="pt-8 pt-md-11 pb-8 pb-md-14">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+
+            <!-- Card -->
+            <div class="card card-border border-primary shadow-light-lg">
+              <div class="card-body">
+
+                <!-- Form -->
+                <form>
+                  <div class="row">
+                    <div class="col-12 col-md-6">
+
+                      <div class="form-group mb-5">
+                        <label class="form-label" for="applyName">Full name</label>
+                        <input class="form-control" id="applyName" type="text" placeholder="Full name">
+                      </div>
+
+                    </div>
+                    <div class="col-12 col-md-6">
+
+                      <div class="form-group mb-5">
+                        <label class="form-label" for="applyEmail">Email</label>
+                        <input class="form-control" id="applyEmail" type="text" placeholder="hello@domain.com">
+                      </div>
+
+                    </div>
+                  </div> <!-- / .row -->
+                  <div class="row">
+                    <div class="col-12 col-md-6">
+
+                      <div class="form-group mb-5">
+                        <p class="form-label">
+                          Cover letter
+                        </p>
+                        <div class="form-file">
+                          <input type="file" class="form-file-input" id="applyCover">
+                          <label class="form-file-label" for="applyCover">
+                            <span class="form-file-text">Choose file</span>
+                            <span class="form-file-button">Browse</span>
+                          </label>
+                        </div>
+                      </div>
+
+                    </div>
+                    <div class="col-12 col-md-6">
+
+                      <div class="form-group mb-5">
+                        <p class="form-label">
+                          Resume
+                        </p>
+                        <div class="form-file">
+                          <input type="file" class="form-file-input" id="applyResume">
+                          <label class="form-file-label" for="applyResume">
+                            <span class="form-file-text">Choose file</span>
+                            <span class="form-file-button">Browse</span>
+                          </label>
+                        </div>
+                      </div>
+
+                    </div>
+                  </div> <!-- / .row -->
+                  <div class="row">
+                    <div class="col-12">
+
+                      <div class="form-group mb-5">
+                        <label class="form-label" for="applyMessage">Why is Landkit important to you?</label>
+                        <textarea class="form-control" id="applyMessage" rows="5" placeholder="Let us know!"></textarea>
+                      </div>
+
+                    </div>
+                  </div> <!-- / .row -->
+                  <div class="row align-items-center">
+                    <div class="col-12 col-md">
+
+                      <!-- Submit -->
+                      <button class="btn btn-primary mb-6 mb-md-0 lift">
+                        Apply now <i class="fe fe-arrow-right ml-3"></i>
+                      </button>
+
+                    </div>
+                    <div class="col-12 col-md-auto">
+
+                      <p class="font-size-sm text-muted mb-0">
+                        Application will be send securely and remain private
+                      </p>
+
+                    </div>
+                  </div> <!-- / .row -->
+                </form>
+
+              </div>
+            </div>
+
+          </div>
+        </div> <!-- / .row -->
+      </div> <!-- / .container -->
+    </section>
+
+    <!-- SHAPE -->
+    <div class="position-relative">
+      <div class="shape shape-bottom shape-fluid-x svg-shim text-dark">
+        <svg viewBox="0 0 2880 48" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0 48h2880V0h-720C1442.5 52 720 0 720 0H0v48z" fill="currentColor"/></svg>      </div>
+    </div>
+
+    <!-- FOOTER -->
+    <footer class="py-8 py-md-11 bg-dark">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 col-md-4 col-lg-3">
+              <!-- Brand -->
+              <img
+                src="./assets/img/brand.svg"
+                alt="brand logo"
+                class="footer-brand img-fluid mb-2"
+              />
+  
+              <!-- Text -->
+              <p class="text-gray-700 mb-2">A better way to build.</p>
+  
+              <!-- Social -->
+              <ul class="list-unstyled list-inline list-social mb-6 mb-md-0">
+                <li class="list-inline-item list-social-item mr-3">
+                  <a href="#!" class="text-decoration-none">
+                    <img
+                      src="./assets/icons/instagram.svg"
+                      class="list-social-icon"
+                      alt="..."
+                    />
+                  </a>
+                </li>
+                <li class="list-inline-item list-social-item mr-3">
+                  <a href="#!" class="text-decoration-none">
+                    <img
+                      src="./assets/icons/facebook.svg"
+                      class="list-social-icon"
+                      alt="..."
+                    />
+                  </a>
+                </li>
+                <li class="list-inline-item list-social-item mr-3">
+                  <a href="#!" class="text-decoration-none">
+                    <img
+                      src="./assets/icons/twitter.svg"
+                      class="list-social-icon"
+                      alt="..."
+                    />
+                  </a>
+                </li>
+                <li class="list-inline-item list-social-item">
+                  <a href="#!" class="text-decoration-none">
+                    <img
+                      src="./assets/icons/pinterest.svg"
+                      class="list-social-icon"
+                      alt="..."
+                    />
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-6 col-md-4 col-lg-2">
+              <!-- Heading -->
+              <h6 class="font-weight-bold text-uppercase text-gray-700">
+                Services
+              </h6>
+  
+              <!-- List -->
+              <ul class="list-unstyled text-muted mb-6 mb-md-8 mb-lg-0">
+                <li class="mb-3">
+                  <a href="#!" class="text-reset"> Consultation </a>
+                </li>
+                <li class="mb-3">
+                  <a href="#!" class="text-reset"> Regulation  </a>
+                </li>
+                <li class="mb-3">
+                  <a href="#!" class="text-reset"> Custom </a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-6 col-md-4 col-lg-2">
+              <!-- Heading -->
+              <h6 class="font-weight-bold text-uppercase text-gray-700">
+                App
+              </h6>
+  
+              <!-- List -->
+              <ul class="list-unstyled text-muted mb-6 mb-md-8 mb-lg-0">
+                <li class="mb-3">
+                  <a href="#!" class="text-reset"> Desktop </a>
+                </li>
+                <li class="mb-3">
+                  <a href="#!" class="text-reset"> Mobile </a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-6 col-md-4 offset-md-4 col-lg-2 offset-lg-0">
+              <!-- Heading -->
+              <h6 class="font-weight-bold text-uppercase text-gray-700">
+                Design
+              </h6>
+  
+              <!-- List -->
+              <ul class="list-unstyled text-muted mb-0">
+                <li class="mb-3">
+                  <a href="#!" class="text-reset">  </a>
+                </li>
+                <li class="mb-3">
+                  <a href="#!" class="text-reset"> Icon </a>
+                </li>
+                <li class="mb-3">
+                  <a href="#!" class="text-reset"> Illustration </a>
+                </li>
+                <li class="mb-3">
+                  <a href="#!" class="text-reset"> Animation </a>
+                </li>
+                <li class="mb-3">
+                  <a href="#!" class="text-reset"> Stock Photos </a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-6 col-md-4 col-lg-2">
+              <!-- Heading -->
+              <h6 class="font-weight-bold text-uppercase text-gray-700">Legal</h6>
+  
+              <!-- List -->
+              <ul class="list-unstyled text-muted mb-0">
+                <li class="mb-3">
+                  <a href="#!" class="text-reset"> Private Policy </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <!-- / .row -->
+        </div>
+        <!-- / .container -->
+      </footer>
+  
+      <!-- JAVASCRIPT -->
+      <!-- Map JS -->
+      <script src="https://api.mapbox.com/mapbox-gl-js/v0.53.0/mapbox-gl.js"></script>
+  
+      <!-- Vendor JS -->
+      <script src="./js/vendor.js"></script>
+  
+      <!-- Theme JS -->
+      <script src="./js/script.js"></script>
+    </body>
+  </html>
+  
