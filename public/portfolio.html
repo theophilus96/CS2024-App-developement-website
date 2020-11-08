@@ -1,0 +1,997 @@
+<!DOCTYPE html>
+
+<html lang="en" style="scroll-behavior: smooth;"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Favicon -->
+    <link
+      rel="shortcut icon"
+      href="./assets/favicon.ico/favicon.ico"
+      type="image/x-icon"
+    />
+
+    <!-- Map CSS -->
+    <link
+      rel="stylesheet"
+      href="https://api.mapbox.com/mapbox-gl-js/v0.53.0/mapbox-gl.css"
+    />
+
+    <!-- Libs CSS -->
+    <link rel="stylesheet" href="./css/libs.css" />
+
+    <!-- Theme CSS -->
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <!-- Fontawesome-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+
+    <!-- Title -->
+    <title>DetApp</title>
+
+    <script src="js/window.js"></script>
+
+  </head>
+  <body data-aos-easing="ease-out-quad" data-aos-duration="700" data-aos-delay="0" data-new-gr-c-s-check-loaded="14.980.0">
+
+    <!-- NAVBAR
+    ================================================== -->
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <div class="container">
+        <!-- Brand -->
+        <a class="navbar-brand" href="./index.html">
+          <img
+            src="./assets/icons/DetApp-logo1.png"
+            class="navbar-brand-img"
+            alt="brand logo"
+          />
+        </a>
+
+        <!-- Toggler -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarCollapse"
+          aria-controls="navbarCollapse"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Collapse -->
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <!-- Toggler -->
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarCollapse"
+            aria-controls="navbarCollapse"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <i class="fe fe-x"></i>
+          </button>
+
+          <!-- Navigation -->
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                id="navbarLandings"
+                data-toggle="dropdown"
+                href="#"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                Products
+              </a>
+              <div
+                class="dropdown-menu dropdown-menu-md p-0"
+                aria-labelledby="navbarLandings"
+              >
+
+                <div class="dropdown-body">
+                  <div class="row gx-0">
+                    <div class="col-6">
+                      <!-- Heading -->
+                      <h6 class="dropdown-header">Services</h6>
+
+                      <!-- List -->
+                      <a class="dropdown-item mb-5" href="service.html"> Speciality </a>
+
+
+                    </div>
+                    <div class="col-6">
+                      <!-- Heading -->
+                      <h6 class="dropdown-header">Apps</h6>
+
+                      <!-- List -->
+                      <a class="dropdown-item" href="portfolio-ios.html"> iOS </a>
+                      <a class="dropdown-item" href="portfolio-andriod.html"> Android </a>
+                    </div>
+                  </div>
+                  <!-- / .row -->
+                </div>
+ 
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                id="navbarPages"
+                data-toggle="dropdown"
+                href="#"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                About
+              </a>
+              <div
+                class="dropdown-menu dropdown-menu-lg"
+                aria-labelledby="navbarPages"
+              >
+                <div class="row gx-0">
+                  <div class="col-6">
+                    <div class="row gx-0">
+                      <div class="col-12 col-lg-6">
+                        <!-- Heading -->
+                        <h6 class="dropdown-header">Career</h6>
+
+                        <!-- List -->
+                        <a class="dropdown-item mb-5 mb-lg-0" href="career.html"> Openings </a>
+                      </div>
+                      <div class="col-12 col-lg-6">
+                        <!-- Heading -->
+                        <h6 class="dropdown-header">Company</h6>
+
+                        <!-- List -->
+                        <a class="dropdown-item" href="./about.html"> About </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-6">
+                    <div class="row gx-0">
+                      <div class="col-12 col-lg-6">
+                        <!-- Heading -->
+                        <h6 class="dropdown-header">Clients</h6>
+
+                        <!-- List -->
+                        <a class="dropdown-item" href="#!"> Airbnb</a>
+                        <a class="dropdown-item" href="#!"> Netflix </a>
+                        <a class="dropdown-item" href="#!"> Coinbase </a>
+                        <a class="dropdown-item mb-5 mb-lg-0" href="#!">
+                          Stripe
+                        </a>
+                      </div>
+                      <div class="col-12 col-lg-6">
+                        <!-- Heading -->
+                        <h6 class="dropdown-header">Portfolio</h6>
+
+                        <!-- List -->
+                        <a class="dropdown-item" href="portfolio.html"> Showcase </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- / .row -->
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                id="navbarAccount"
+                data-toggle="dropdown"
+                href="blog.html"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                Blog
+              </a>
+              <div
+                class="dropdown-menu dropdown-menu-sm"
+                aria-labelledby="navbarPages"
+              >
+                <div class="row gx-0">
+                  <div class="col-6">
+                    <div class="row gx-0">
+                      <div class="col-12 col-lg-6">
+                        <!-- Heading -->
+                        <h6 class="dropdown-header"href="./blog.html" >Blog</h6>
+
+                        <!-- List -->
+                        <a class="dropdown-item" href="./blog.html">Articles</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                id="navbarDocumentation"
+                data-toggle="dropdown"
+                href="#"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                Contact
+              </a>
+              <div
+                class="dropdown-menu dropdown-menu-md"
+                aria-labelledby="navbarDocumentation"
+              >
+                <div class="list-group list-group-flush">
+                  <a class="list-group-item" href="contact.html">
+                    <!-- Icon -->
+                    <div class="icon icon-sm text-primary">
+                      <img src="./assets/svg/house.svg">
+                    </div>
+
+                    <!-- Content -->
+                    <div class="ml-4">
+                      <!-- Heading -->
+                      <h6
+                        class="font-weight-bold text-uppercase text-primary mb-0"
+                      >
+                        Office
+                      </h6>
+
+                      <!-- Text -->
+                      <p class="font-size-sm text-gray-700 mb-0">
+                        Block S2.2, S2.2-B4-05, 21 Nanyang Link
+                      </p>
+                    </div>
+                  </a>
+                  <a class="list-group-item" href="contact.html">
+                    <!-- Icon -->
+                    <div class="icon icon-sm text-primary">
+                      <img src="assets/svg/email.svg">
+                    </div>
+
+                    <!-- Content -->
+                    <div class="ml-4">
+                      <!-- Heading -->
+                      <h6
+                        class="font-weight-bold text-uppercase text-primary mb-0"
+                      >
+                        Email
+                      </h6>
+
+                      <!-- Text -->
+                      <p class="font-size-sm text-gray-700 mb-0">
+                       support@detapp.com
+                      </p>
+                    </div>
+                  </a>
+                  <a class="list-group-item" href="contact.html">
+                    <!-- Icon -->
+                    <div class="icon icon-sm text-primary">
+                      <img src="assets/svg/call.svg">
+                    </div>
+
+                    <!-- Content -->
+                    <div class="ml-4">
+                      <!-- Heading -->
+                      <h6
+                        class="font-weight-bold text-uppercase text-primary mb-0"
+                      >
+                        Phone
+                      </h6>
+
+                      <!-- Text -->
+                      <p class="font-size-sm text-gray-700 mb-0">
+                        1234-5678
+                      </p>
+                    </div>
+
+                    <!-- Badge -->
+                    <!-- <span class="badge rounded-pill bg-primary-soft ml-auto">
+                      2.0.0-alpha
+                    </span> -->
+                  </a>
+                </div>
+              </div>
+            </li>
+          </ul>
+
+          <!--Button-->
+          <a
+            class="navbar-btn btn btn-sm btn-primary lift ml-auto"
+            href="applytous.html"
+            target="_blank"
+          >
+            Apply now
+          </a>
+        </div>
+      </div>
+    </nav>
+
+
+
+    <!-- To TOP OF PAGE-->
+    <!-- <a id="back-to-top" style="position:fixed; bottom:25px; right:25px; z-index: 1;" href="#" class="btn btn-outline-dark" role="button"><i class="fas fa-chevron-up"></i></a> -->
+
+    <!-- WELCOME
+    ================================================== -->
+    <section data-jarallax="" data-speed=".8" class="pt-12 pt-md-14 pb-12 pb-md-15 overlay overlay-black overlay-60 bg-cover jarallax" style="margin-top: -90px; background-image: none;" data-jarallax-original-styles="margin-top: -90px; background-image: url(assets/img/covers/cover-3.jpg);">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-12 col-md-10 col-lg-7 text-center">
+
+            <!-- Headin -->
+            <h1 class="display-2 font-weight-bold text-white">
+              Our Work.
+            </h1>
+
+            <!-- Text -->
+            <p class="lead text-white-75 mb-4">
+              We design &amp; build products, tools, apps, and sites for companies trying to do great things for our planet.
+            </p>
+
+            <!-- Badges -->
+            <nav class="nav justify-content-center">
+              <a class="badge badge-pill badge-white-soft active mr-1 mb-1" href="#" data-toggle="pill" data-filter="*" data-target="#portfolio">
+                <span class="h6 text-uppercase">All</span>
+              </a>
+              <a class="badge badge-pill badge-white-soft mr-1 mb-1" href="portfolio-ios.html" data-toggle="pill" data-filter=".ios" data-target="#portfolio">
+                <span class="h6 text-uppercase">Ios</span>
+              </a>
+              <a class="badge badge-pill badge-white-soft mr-1 mb-1" href="portfolio-andriod.html" data-toggle="pill" data-filter=".android" data-target="#portfolio">
+                <span class="h6 text-uppercase">Android</span>
+              </a>
+            </nav>
+
+          </div>
+        </div> <!-- / .row -->
+      </div> <!-- / .container -->
+
+    <!--CHANGE BACKGROUND PICTURE HERE-->
+    <div id="jarallax-container-0" style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; overflow: hidden; z-index: -100;"><div style="background-position: 50% 50%; background-size: cover; background-repeat: no-repeat; background-image: url('assets/images/portfolio-background1.jpg'); position: absolute; top: 0px; left: 0px; width: 100%; height: 634.96px; overflow: hidden; pointer-events: none; transform-style: preserve-3d; backface-visibility: hidden; will-change: transform, opacity; margin-top: 31.52px; transform: translate3d(0px, -31.56px, 0px);"></div></div></section>
+
+    <!-- SHAPE
+    ================================================== -->
+    <div class="position-relative">
+      <div class="shape shape-bottom shape-fluid-x svg-shim text-light">
+        <svg viewBox="0 0 2880 48" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0 48h2880V0h-720C1442.5 52 720 0 720 0H0v48z" fill="currentColor"></path></svg>
+      </div>
+    </div>
+
+    <!-- CONTENT
+    ================================================== -->
+    <section class="py-8 py-md-11 mt-n10 mt-md-n14">
+      <div class="container">
+        <div class="row" id="portfolio" data-isotope="{&quot;layoutMode&quot;: &quot;masonry&quot;}" style="position: relative; height: 944.938px;">
+          <div class="col-12 col-md-4 ios android" style="position: absolute; left: 0px; top: 0px;">
+
+            <!-- Card -->
+            <a class="card shadow-light-lg mb-7" href="#project2">
+
+              <!-- Image -->
+              <div class="card-zoom">
+                <img class="card-img" src="./assets/images/portfolio-2.jpg" alt="...">
+              </div>
+
+              <!-- Overlay -->
+              <div class="card-img-overlay card-img-overlay-hover">
+                <div class="card-body bg-white">
+
+                  <!-- Shape -->
+                  <div class="shape shape-bottom-100 shape-fluid-x svg-shim text-white">
+                    <svg viewBox="0 0 2880 48" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0 48h2880V0h-720C1442.5 52 720 0 720 0H0v48z" fill="currentColor"></path></svg>
+                  </div>
+
+                  <!-- Preheading -->
+                  <h6 class="text-uppercase mb-1 text-muted">Security</h6>
+
+                  <!-- Heading -->
+                  <h4 class="mb-0">SGSecure</h4>
+
+                </div>
+              </div>
+
+            </a>
+
+          </div>
+          <div class="col-12 col-md-4 ios" style="position: absolute; left: 239.988px; top: 0px;">
+
+            <!-- Card -->
+            <a class="card shadow-light-lg mb-7" href="portfolio-ios.html#iosproject1">
+
+              <!-- Image -->
+              <div class="card-zoom">
+                <img class="card-img" src="./assets/images/portfolio-ios-1.jpg" alt="...">
+              </div>
+
+              <!-- Overlay -->
+              <div class="card-img-overlay card-img-overlay-hover">
+                <div class="card-body bg-white">
+
+                  <!-- Shape -->
+                  <div class="shape shape-bottom-100 shape-fluid-x svg-shim text-white">
+                    <svg viewBox="0 0 2880 48" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0 48h2880V0h-720C1442.5 52 720 0 720 0H0v48z" fill="currentColor"></path></svg>
+                  </div>
+
+                  <!-- Preheading -->
+                  <h6 class="text-uppercase mb-1 text-muted">Health and Fitness</h6>
+
+                  <!-- Heading -->
+                  <h4 class="mb-0">WorkOutDoors</h4>
+
+                </div>
+              </div>
+
+            </a>
+
+          </div>
+          <div class="col-12 col-md-4 android" style="position: absolute; left: 479.976px; top: 0px;">
+
+            <!-- Card -->
+            <a class="card shadow-light-lg mb-7" href="portfolio-andriod.html#androidproject1">
+
+              <!-- Image -->
+              <div class="card-zoom">
+                <img class="card-img" src="./assets/images/portfolio-android-1.png" alt="...">
+              </div>
+
+              <!-- Overlay -->
+              <div class="card-img-overlay card-img-overlay-hover">
+                <div class="card-body bg-white">
+
+                  <!-- Shape -->
+                  <div class="shape shape-bottom-100 shape-fluid-x svg-shim text-white">
+                    <svg viewBox="0 0 2880 48" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0 48h2880V0h-720C1442.5 52 720 0 720 0H0v48z" fill="currentColor"></path></svg>
+                  </div>
+
+                  <!-- Preheading -->
+                  <h6 class="text-uppercase mb-1 text-muted">Security</h6>
+
+                  <!-- Heading -->
+                  <h4 class="mb-0">Cerberus Anti Theft</h4>
+
+                </div>
+              </div>
+
+            </a>
+
+          </div>
+          <div class="col-12 col-md-4 android" style="position: absolute; left: 239.988px; top: 239.988px;">
+
+            <!-- Card -->
+            <a class="card shadow-light-lg mb-7" href="portfolio-andriod.html#androidproject2">
+
+              <!-- Image -->
+              <div class="card-zoom">
+                <img class="card-img" src="./assets/images/portfolio-android-2.jpg" alt="...">
+              </div>
+
+              <!-- Overlay -->
+              <div class="card-img-overlay card-img-overlay-hover">
+                <div class="card-body bg-white">
+
+                  <!-- Shape -->
+                  <div class="shape shape-bottom-100 shape-fluid-x svg-shim text-white">
+                    <svg viewBox="0 0 2880 48" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0 48h2880V0h-720C1442.5 52 720 0 720 0H0v48z" fill="currentColor"></path></svg>
+                  </div>
+
+                  <!-- Preheading -->
+                  <h6 class="text-uppercase mb-1 text-muted">Utility</h6>
+
+                  <!-- Heading -->
+                  <h4 class="mb-0">Google Opinion Rewards</h4>
+
+                </div>
+              </div>
+
+            </a>
+
+          </div>
+          <div class="col-12 col-md-4 ios android" style="position: absolute; left: 0px; top: 314.975px;">
+
+            <!-- Card -->
+            <a class="card shadow-light-lg mb-7" href="#project1">
+
+              <!-- Image -->
+              <div class="card-zoom">
+                <img class="card-img" src="./assets/images/portfolio-1.jpg" alt="...">
+              </div>
+
+              <!-- Overlay -->
+              <div class="card-img-overlay card-img-overlay-hover">
+                <div class="card-body bg-white">
+
+                  <!-- Shape -->
+                  <div class="shape shape-bottom-100 shape-fluid-x svg-shim text-white">
+                    <svg viewBox="0 0 2880 48" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0 48h2880V0h-720C1442.5 52 720 0 720 0H0v48z" fill="currentColor"></path></svg>
+                  </div>
+
+                  <!-- Preheading -->
+                  <h6 class="text-uppercase mb-1 text-muted">Health</h6>
+
+                  <!-- Heading -->
+                  <h4 class="mb-0">TraceTogether</h4>
+
+                </div>
+              </div>
+
+            </a>
+
+          </div>
+          <div class="col-12 col-md-4 ios android" style="position: absolute; left: 479.976px; top: 389.975px;">
+
+            <!-- Card -->
+            <a class="card shadow-light-lg mb-7" href="#project3">
+
+              <!-- Image -->
+              <div class="card-zoom">
+                <img class="card-img" src="./assets/images/portfolio-3.png" alt="...">
+              </div>
+
+              <!-- Overlay -->
+              <div class="card-img-overlay card-img-overlay-hover">
+                <div class="card-body bg-white">
+
+                  <!-- Shape -->
+                  <div class="shape shape-bottom-100 shape-fluid-x svg-shim text-white">
+                    <svg viewBox="0 0 2880 48" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0 48h2880V0h-720C1442.5 52 720 0 720 0H0v48z" fill="currentColor"></path></svg>
+                  </div>
+
+                  <!-- Preheading -->
+                  <h6 class="text-uppercase mb-1 text-muted">Health</h6>
+
+                  <!-- Heading -->
+                  <h4 class="mb-0">LifeSG</h4>
+
+                </div>
+              </div>
+
+            </a>
+
+          </div>
+          <div class="col-12 col-md-4 ios" style="position: absolute; left: 0px; top: 554.963px;">
+
+            <!-- Card -->
+            <a class="card shadow-light-lg mb-7" href="portfolio-ios.html#iosproject2">
+
+              <!-- Image -->
+              <div class="card-zoom">
+                <img class="card-img" src="./assets/images/portfolio-ios-2.jpg" alt="...">
+              </div>
+
+              <!-- Overlay -->
+              <div class="card-img-overlay card-img-overlay-hover">
+                <div class="card-body bg-white">
+
+                  <!-- Shape -->
+                  <div class="shape shape-bottom-100 shape-fluid-x svg-shim text-white">
+                    <svg viewBox="0 0 2880 48" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0 48h2880V0h-720C1442.5 52 720 0 720 0H0v48z" fill="currentColor"></path></svg>
+                  </div>
+
+                  <!-- Preheading -->
+                  <h6 class="text-uppercase mb-1 text-muted">Ideation</h6>
+
+                  <!-- Heading -->
+                  <h4 class="mb-0">Notability</h4>
+
+                </div>
+              </div>
+
+            </a>
+
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+   <!-- START OF DETAILED PROJECT LISTING-->
+    <!-- WELCOME
+    ================================================== -->
+    <section data-jarallax data-speed=".8" class="py-12 py-md-15 bg-cover jarallax" id="project1" style="background-image: url(assets/images/portfolio-11.jpg);">
+
+    </section>
+
+    <!-- SHAPE
+    ================================================== -->
+    <div class="d-none position-relative">
+      <div class="shape shape-bottom shape-fluid-x svg-shim text-light">
+        <svg viewBox="0 0 2880 48" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0 48h2880V0h-720C1442.5 52 720 0 720 0H0v48z" fill="currentColor"></path></svg>
+      </div>
+    </div>
+
+    <!-- HEADER
+    ================================================== -->
+    <section class="pt-8 pt-md-11">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-12 col-md-10 col-lg-9 col-xl-8">
+            <!-- Heading -->
+            <h1 class="display-3 font-weight-bold text-center">
+              Trace Together App 
+            </h1>
+
+            <!-- Text -->
+            <p class="lead mb-7 text-center text-muted">
+              TraceTogether supports Singapore’s efforts to fight the spread of COVID-19 through community-driven contact tracing.
+
+TraceTogether notifies you quickly if you’ve been exposed to COVID-19 through close contact with other TraceTogether users. 
+            </p>
+          </div>
+        </div>
+        <!-- / .row -->
+      </div>
+      <!-- / .container -->
+    </section>
+
+    <!-- SECTION
+    ================================================== -->
+    <section class="pt-2 pt-md-4 mb-6 mb-md-8">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-12 col-md-10 col-lg-9 col-xl-8">
+              <!-- Text -->
+              <p>
+                Key Features:
+              </p>
+              <p class="mb-0">
+               <ul>
+<li>The application is simple and easy-to-use. Simply download the app, grant the app permission to log data and turn on your Bluetooth.</li>
+<li>The mobile app uses Bluetooth signals to determine if you are near another TraceTogether user. No location data is collected.</li>
+<li>The data logged by the app remains encrypted in the mobile device where it is installed at all times. Only those who test positive for COVID-19 will be asked to share the data logged to speed up contact tracing.</li>
+</ul>
+              </p>
+            </div>
+          </div>
+          <!-- / .row -->
+        </div>
+        <!-- / .container -->
+    </section>
+
+
+    <!-- WELCOME
+    ================================================== -->
+    <section data-jarallax data-speed=".8" class="py-12 py-md-15 bg-cover jarallax" id="project2" style="background-image: url(assets/images/portfolio-22.jpg);">
+
+    </section>
+
+    <!-- SHAPE
+    ================================================== -->
+    <div class="d-none position-relative">
+      <div class="shape shape-bottom shape-fluid-x svg-shim text-light">
+        <svg viewBox="0 0 2880 48" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0 48h2880V0h-720C1442.5 52 720 0 720 0H0v48z" fill="currentColor"></path></svg>
+      </div>
+    </div>
+
+    <!-- HEADER
+    ================================================== -->
+    <section class="pt-8 pt-md-11">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-12 col-md-10 col-lg-9 col-xl-8">
+            <!-- Heading -->
+            <h1 class="display-3 font-weight-bold text-center">
+              SG Secure App
+            </h1>
+
+            <!-- Text -->
+            <p class="lead mb-7 text-center text-muted">
+              SGSecure is a national movement to sensitise, train and mobilise Singaporeans to play a part to prevent and deal with terrorist attacks.
+            </p>
+          </div>
+        </div>
+        <!-- / .row -->
+      </div>
+      <!-- / .container -->
+    </section>
+
+    <!-- SECTION
+    ================================================== -->
+    <section class="pt-2 pt-md-4 mb-6 mb-md-8">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-12 col-md-10 col-lg-9 col-xl-8">
+              <!-- Text -->
+              <p>Key Features:
+              </p>
+              <p class="mb-0">
+                <ul>
+<li>Report: Where users send in information on suspicious incidents or objects.</li>
+<li>Emergency Call: Which allows the user to call the police at 999, send an SMS to the police, or call emergency services at 995.</li>
+<li>Alerts: Where user check news flashes about emergencies. By tapping on the map icon on the top right of the screen, user can see where the event is happening.</li>
+<li>Get Ready: Information about the SGSecure movement, and tips on what to do in the event of an attack or crisis</li>
+</ul>
+              </p>
+            </div>
+          </div>
+          <!-- / .row -->
+        </div>
+        <!-- / .container -->
+    </section>
+
+
+    <!-- WELCOME
+    ================================================== -->
+    <section data-jarallax data-speed=".8" class="py-12 py-md-15 bg-cover jarallax" id="project3" style="background-image: url(assets/images/portfolio-33.png);">
+
+    </section>
+
+    <!-- SHAPE
+    ================================================== -->
+    <div class="d-none position-relative">
+      <div class="shape shape-bottom shape-fluid-x svg-shim text-light">
+        <svg viewBox="0 0 2880 48" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0 48h2880V0h-720C1442.5 52 720 0 720 0H0v48z" fill="currentColor"></path></svg>
+      </div>
+    </div>
+
+    <!-- HEADER
+    ================================================== -->
+    <section class="pt-8 pt-md-11">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-12 col-md-10 col-lg-9 col-xl-8">
+            <!-- Heading -->
+            <h1 class="display-3 font-weight-bold text-center">
+              LifeSG App
+            </h1>
+
+            <!-- Text -->
+            <p class="lead mb-7 text-center text-muted">
+              LifeSG (previously Moments of Life) gives you simpler access to government digital services and allows you to handle tasks with ease.
+            </p>
+          </div>
+        </div>
+        <!-- / .row -->
+      </div>
+      <!-- / .container -->
+    </section>
+
+    <!-- SECTION
+    ================================================== -->
+    <section class="pt-2 pt-md-4 mb-6 mb-md-8">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-12 col-md-10 col-lg-9 col-xl-8">
+              <!-- Text -->
+              <p>
+                More than 40 government services and information have been personalised and consolidated into just one app. Check off your to-do list, manage your applications, keep track of the latest government schemes and benefits.
+<br>
+<br>
+Key Features:
+              </p>
+              <p class="mb-0">
+                <ul>
+<li>Apply for birth registration and baby bonus online</li>
+<li>Search for preschools and indicate interest for your child</li>
+<li>Explore active ageing programmes and senior’s discounts</li>
+<li>Find job opportunities, skills upgrading courses and job support</li>
+<li>Stay updated with the latest government schemes, benefits and events</li>
+</ul>
+              </p>
+            </div>
+          </div>
+          <!-- / .row -->
+        </div>
+        <!-- / .container -->
+    </section>
+<div class="container">
+        <div class="row justify-content-center">
+          <div class="col-12 col-md-10 col-lg-8 text-center">
+            <!-- Heading -->
+            <h2 class="font-weight-bold">Try us for free anytime, anywhere.</h2>
+
+            <!-- Text -->
+            <p class="font-size-lg text-muted mb-8 px-lg-9">
+              We can help you build a better business faster with apps and web.
+              Tried and true systems for projects small and large.
+            </p>
+
+            <!-- Button -->
+             <a
+            class="navbar-btn btn btn-sm btn-primary lift ml-auto"
+            href="contact.html"
+            target="_blank"
+          >
+            Apply now!
+          </a>
+		  <br>
+		  <br>
+		  
+          </div>
+        </div>
+        <!-- / .row -->
+      </div>
+
+
+    <!-- SHAPE
+    ================================================== -->
+    <div class="position-relative">
+      <div class="shape shape-bottom shape-fluid-x svg-shim text-dark">
+        <svg viewBox="0 0 2880 48" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0 48h2880V0h-720C1442.5 52 720 0 720 0H0v48z" fill="currentColor"></path></svg>
+      </div>
+    </div>
+
+    <!-- CTA
+    ================================================== -->
+    <section class="pt-6 pt-md-8 bg-dark">
+      <div class="container pb-6 pb-md-8 border-bottom border-gray-300">
+        <div class="row align-items-center">
+          <div class="col-12 col-md">
+
+            <!-- Heading -->
+            <h3 class="mb-1 font-weight-bold text-light">
+              Get our stories delivered
+            </h3>
+
+            <!-- Text -->
+            <p class="font-size-lg text-muted mb-6 mb-md-0">
+              From us to your inbox weekly.
+            </p>
+
+          </div>
+          <div class="col-12 col-md-5">
+
+            <!-- Form -->
+            <form>
+              <div class="row">
+                <div class="col">
+
+                  <!-- Input -->
+                  <input type="email" class="form-control" placeholder="Enter your email">
+
+                </div>
+                <div class="col-auto ml-n5">
+
+                  <!-- Button -->
+                  <button class="btn btn-primary" type="submit">
+                    Subscribe
+                  </button>
+
+                </div>
+              </div> <!-- / .row -->
+            </form>
+
+          </div>
+        </div> <!-- / .row -->
+      </div> <!-- / .container -->
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="py-8 py-md-11 bg-dark">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-4 col-lg-3">
+            <!-- Brand -->
+            <img
+              src="./assets/icons/DetApp-logo1.png"
+              alt="brand logo"
+              class="footer-brand img-fluid mb-2"
+            />
+
+            <!-- Text -->
+            <p class="text-gray-700 mb-2">A better way to build.</p>
+
+            <!-- Social -->
+            <ul class="list-unstyled list-inline list-social mb-6 mb-md-0">
+              <li class="list-inline-item list-social-item mr-3">
+                <a href="#!" class="text-decoration-none">
+                  <img
+                    src="./assets/icons/instagram.svg"
+                    class="list-social-icon"
+                    alt="..."
+                  />
+                </a>
+              </li>
+              <li class="list-inline-item list-social-item mr-3">
+                <a href="#!" class="text-decoration-none">
+                  <img
+                    src="./assets/icons/facebook.svg"
+                    class="list-social-icon"
+                    alt="..."
+                  />
+                </a>
+              </li>
+              <li class="list-inline-item list-social-item mr-3">
+                <a href="#!" class="text-decoration-none">
+                  <img
+                    src="./assets/icons/twitter.svg"
+                    class="list-social-icon"
+                    alt="..."
+                  />
+                </a>
+              </li>
+              <li class="list-inline-item list-social-item">
+                <a href="#!" class="text-decoration-none">
+                  <img
+                    src="./assets/icons/pinterest.svg"
+                    class="list-social-icon"
+                    alt="..."
+                  />
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-6 col-md-4 col-lg-2">
+            <!-- Heading -->
+            <h6 class="font-weight-bold text-uppercase text-gray-700">
+              Services
+            </h6>
+
+            <!-- List -->
+            <ul class="list-unstyled text-muted mb-6 mb-md-8 mb-lg-0">
+              <li class="mb-3">
+                <a href="service.html" class="text-reset"> Speciality </a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-6 col-md-4 col-lg-2">
+            <!-- Heading -->
+            <h6 class="font-weight-bold text-uppercase text-gray-700">
+              App
+            </h6>
+
+            <!-- List -->
+            <ul class="list-unstyled text-muted mb-6 mb-md-8 mb-lg-0">
+              <li class="mb-3">
+                <a href="portfolio-ios.html" class="text-reset"> iOS </a>
+              </li>
+              <li class="mb-3">
+                <a href="portfolio-andriod.html" class="text-reset"> Android </a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-6 col-md-4 offset-md-4 col-lg-2 offset-lg-0">
+            <!-- Heading -->
+            <h6 class="font-weight-bold text-uppercase text-gray-700">
+              Company
+            </h6>
+
+            <!-- List -->
+            <ul class="list-unstyled text-muted mb-0">
+              <li class="mb-3">
+                <a href="#!" class="text-reset">  </a>
+              </li>
+              <li class="mb-3">
+                <a href="about.html" class="text-reset"> About Us </a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-6 col-md-4 col-lg-2">
+            <!-- Heading -->
+            <h6 class="font-weight-bold text-uppercase text-gray-700">Legal</h6>
+
+            <!-- List -->
+            <ul class="list-unstyled text-muted mb-0">
+              <li class="mb-3">
+                <a href="privatepolicy.html" class="text-reset" target="_blank">Private Policy </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!-- / .row -->
+      </div>
+      <!-- / .container -->
+    </footer>
+
+    <!-- JAVASCRIPT -->
+    <!-- Map JS -->
+    <script src="https://api.mapbox.com/mapbox-gl-js/v0.53.0/mapbox-gl.js"></script>
+
+    <!-- Vendor JS -->
+    <script src="./js/vendor.js"></script>
+
+    <!-- Theme JS -->
+    <script src="./js/script.js"></script>
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="/__/firebase/8.0.1/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="/__/firebase/8.0.1/firebase-analytics.js"></script>
+
+<!-- Initialize Firebase -->
+<script src="/__/firebase/init.js"></script>
+</body></html>
