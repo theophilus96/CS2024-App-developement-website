@@ -131,7 +131,7 @@ One of the main differences between bootstrap 5 and 4 is that bootstrap 5 has no
 
 ### Logo
 
-![](RackMultipart20201202-4-1dfpkm0_html_f44478c157b2b64c.png)
+![](./public/assets/icons/DetApp-logo.png)
 
 This is the logo design based on our Company name &#39;DetApp&#39;, we want to display our name in the logo to allow customers to know our company name at one glance. And to show that we are doing work related to Mobile, we designed the A in a mobile phone shape using the Gestalt Principles of Design to allow viewers&#39; eyes to perceive the shape in white as an &#39;A&#39; by following the outline of it. It is also designed based on our website color scheme.
 
