@@ -100,7 +100,7 @@ Attracting more talents to join the company with showing company&#39;s working e
 
 # Details:
 
-![](RackMultipart20201202-4-1dfpkm0_html_f31f2784059bfc24.png)
+![](https://www.google.com/url?sa=i&url=https%3A%2F%2Fblog.getbootstrap.com%2F2020%2F06%2F16%2Fbootstrap-5-alpha%2F&psig=AOvVaw0R8hZfdCLX64buJDH7U9yc&ust=1606964733380000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCIjcgqOoru0CFQAAAAAdAAAAABAD)
 
 ## Bootstrap 5 alpha
 
