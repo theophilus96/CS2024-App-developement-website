@@ -6,7 +6,7 @@
  |
 | --- | --- | --- |
 
-![](RackMultipart20201202-4-1dfpkm0_html_9d59ac394922d5eb.png)
+![](./public/assets/icons/DetApp-logo.png)
 
 # Creative Brief
 
