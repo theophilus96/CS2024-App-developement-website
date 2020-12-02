@@ -139,15 +139,15 @@ This is the logo design based on our Company name &#39;DetApp&#39;, we want to d
 
 There are two icons in the home page to show what we can do for the customers.
 
-![](RackMultipart20201202-4-1dfpkm0_html_f4f00dc8b0f99a38.png)
+![](./public/assets/svg/build-icon.svg)
 
 This icon is designed with a tool icon to represent that we are here to help customers build a strategy for their business idea or product with the right feature set.
 
-![](RackMultipart20201202-4-1dfpkm0_html_4157f22699309d6d.png)
+![](./public/assets/svg/app-devicon.svg)
 
 This icon is designed to emphasize that we provide mobile app development services. Our team of app developers makes amazing Android, iOS and Hybrid mobile apps.
 
-![](RackMultipart20201202-4-1dfpkm0_html_caa1edfa28c89c90.png)
+![](./public/assets/svg/design-icon.svg)
 
 This is designed with a paintbrush and pencil tool to represent that our designers can create unique mobile app designs to offer an unforgettable user experience according to our customers&#39; requirements.
 
