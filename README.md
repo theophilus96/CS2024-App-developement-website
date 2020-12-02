@@ -175,7 +175,7 @@ Next illustration is designed based off how DetApp&#39;s designers &amp; develop
 
 And the final step of the process would be Testing &amp; Deployment of the mobile application. This illustration is designed to represent the testing and debugging step of the development, this step is called User Acceptance Tests to ensure the application is in best condition.
 
-![](RackMultipart20201202-4-1dfpkm0_html_f48ab55916975f4e.png)
+![](./screenshots/macandphone.png)
 
 The illustrations within Phone and MacBook are to represent that DetApp supports Responsive Web Design, and we have implemented Responsive Web Design in our website layout to allow customers to view our contents on a smaller screen device without any contents being distorted.
 
@@ -183,11 +183,11 @@ The illustrations within Phone and MacBook are to represent that DetApp supports
 
 This is before optimization of images and CSS
 
-![](RackMultipart20201202-4-1dfpkm0_html_9836fa32e4d49e56.jpg)
+![](./screenshots/before.png)
 
 After optimizing images and CSS
 
-![](RackMultipart20201202-4-1dfpkm0_html_d0fae5491a961863.png)
+![](./screenshots/after.png)
 
 By optimizing the components of the website, visitors can load and view our website faster and shorten the waiting time of loading the pages. This is part of conversion rate optimization where we practice improving the quality of visitors and encompass usability, copywriting, statistics, testing and research.
 
@@ -289,7 +289,7 @@ Valuable, relevant headlines and buttons are critical, but we can often increase
 
 ## Google Analytics
 
-![](RackMultipart20201202-4-1dfpkm0_html_3d711d80811661c6.png)
+![](./screenshots/googleanalytics.png)
 
 ![](RackMultipart20201202-4-1dfpkm0_html_9c792c892cef863c.png)
 
