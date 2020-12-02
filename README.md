@@ -159,19 +159,19 @@ We have three steps as follows:
 
 1. **Requirement Gathering &amp; Wireframe**
 
-![](./public/assets/illustrations/designdev-illus-1.jpg)
+![](./public/assets/illustrations/wireframe-illus-1.jpg)
 
 This illustration is designed based on how DetApp will discuss with our customers about their mobile app and requirements then we will have an idea of how to build the wireframes to allow the customers to understand the flow of the mobile app.
 
 1. **Mobile App Design &amp; Development**
 
-![](./public/assets/illustrations/testdebug-illus-1.jpg)
+![](./public/assets/illustrations/designdev-illus-1.jpg)
 
 Next illustration is designed based off how DetApp&#39;s designers &amp; developers will add components to the applications to bring the app to life. It is like construction field in building something.
 
 1. **Testing &amp; Deployment**
 
-![](RackMultipart20201202-4-1dfpkm0_html_d279c64086a77f3f.jpg)
+![](./public/assets/illustrations/testdebug-illus-1.jpg)
 
 And the final step of the process would be Testing &amp; Deployment of the mobile application. This illustration is designed to represent the testing and debugging step of the development, this step is called User Acceptance Tests to ensure the application is in best condition.
 
